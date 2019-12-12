@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: 'sans-serif';
+  line-height: 1.4;
+  background: #333;
+ 
+}
+.viewheight{
+  background: #333 url('../Wiki-background.jpg')
+  no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0.75rem 0;
+}
+.l-heading{
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+.m-heading{
+  font-size: 3rem;
+  line-height: 1.1;
+}
+.lead{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#navbar img{
+height: 60px;
+width:200px;
+padding-left: 50px;
+}
+#navbar button{
+  display: flex;
+  align-items: center;
+  text-align:center;
+  background:#fb2003 ;
+  margin-right: 50px;
+  border:none;
+  color:#fff;
+  height: 35px;
+  width: 80px;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+.btn{
+  display: inline;
+  color: #fff;
+  background:#fb2003;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  margin-bottom: 1rem;
+
+  }
+
+input{
+  padding:1rem;
+  font-size: 1.3rem;
+  width:30%;
+  margin-bottom: 1rem;
+}
+
+
+#navbar{
+  display: flex;
+  position: relative;;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background: black;
+  color:#fff;
+  margin-top: 0.5rem;
+}
+.tv .content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+}
+.questions{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions .ask{
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.questions .main-question{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background: #333;
+  width:60%;
+  padding-top: 0.8rem;
+  padding-bottom:0.8rem ;
+  padding-left:0.8rem;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.questions .main-question span{
+  float:right;
+  text-align: right;
+  padding-right: 1rem;
+  
+}
+footer{
+  margin-top: 0.5rem;
+  background: black;
+  color: rgba(194, 194, 194, 0.911);
+  padding: 4rem;
+}
+footer .container .quest{
+  margin-bottom: 1rem;
+}
+footer .container .grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  color:rgba(194, 194, 194, 0.911);
+}
+
+footer .container .grid .foot ul li{
+  list-style: none;
+  padding-bottom: 1.5rem;
+}
